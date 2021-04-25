@@ -8,7 +8,7 @@ var zahirr = db.get("zahirr");
 	console.log('')
 }
 
-var creatorList = ['@meiky','@ikyyads','@meikygans','@ikyganteng', '@meikyads','@ikyads','@ikyads'];
+var creatorList = ['@iky','@ikyys','@ikygans','@ikyganteng', '@iky','@iky','@iky'];
 var creator = creatorList[Math.floor(Math.random() * creatorList.length)];
 
 
@@ -40,7 +40,7 @@ loghandler = {
         creator: `${creator}`,
         code: 406,
         message: 'masukan parameter apikey',
-        getApikey: 'salin link di atas mank buat apikey nya chat aja di wa wa.me/6283141727903 '
+        getApikey: 'salin link di atas mank buat apikey nya chat aja di wa wa.me/6288289034503'
     },
     notkey: {
         status: false,
@@ -112,7 +112,7 @@ loghandler = {
         status: false,
         creator: `${creator}`,
         code: 406,
-        message: 'apikeynya invalid, salin link di atas mank buat apikey nya chat aja di wa wa.me/6283141727903'
+        message: 'apikeynya invalid, salin link di atas mank buat apikey nya chat aja di wa wa.me/6288289034503'
     },
     invalidlink: {
         status: false,
@@ -152,7 +152,7 @@ var len = 15
             randomlagi += arr[Math.floor(Math.random() * arr.length)];
         }
 
-        var randomTextNumber = random+randomlagi+'---------ZahirGanteng'+'meikyads--GANS';
+        var randomTextNumber = random+randomlagi+'---------IkyGanteng'+'Iky--GANS';
         
  
  async function cekApiKey(api) {
